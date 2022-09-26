@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 100%, 74%) ;
+    background-image: url("images/bg-intro-mobile.png");
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+   min-height: 500px;
+    max-width: 500px;
+    margin: 0 auto;
+    
+
+}
+
+header {
+    color: #fff;
+    font-weight: 400;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.title {
+    width: 50%;
+    text-align: center;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+
+.article {
+    width: 80%;
+    margin-left: 50px;
+}
+
+main {
+    text-align: center;
+    width: 80%;
+    margin-left: 50px;
+    padding: 15px 20px;
+    color: hsl(246, 25%, 77%);
+    margin-top: 50px;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 10px rgb(76, 75, 75);
+}
+
+.colored-white {
+    color: #fff;
+}
+
+.try {
+    width: 60%;
+    text-align: center;
+    margin-left: 50px;
+}
+
+input {
+    width: 90%;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border: 1px solid hsl(246, 25%, 77%);
+    border-radius: 4px;
+    font-weight: 800;
+    outline: none;
+
+}
+
+.claim {
+    background-color: #fff;
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+
+
+.btn {
+    width: 90%;
+    margin-left: 30px;
+    padding: 20px 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #fff;
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    cursor: pointer;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    
+}
+
+.btn:hover {
+    background-color: hsl(154, 56%, 68%);
+}
+
+footer {
+    width: 90%;
+    margin-left: 30px;
+    color: hsl(246, 25%, 77%);
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.colored-red {
+    color: hsl(0, 100%, 74%) ;
+}
+.error {
+    font-size: 12px;
+    width: 100%;
+    position: relative;
+    right: -200px;
+    top: -8px;
+    color: hsl(0, 100%, 74%);
+    font-weight: 700;
+    display: none;
+}
+
+
+
+.icon {
+    position: relative;
+    right: -320px;
+    max-width: 20px;
+    width: 100%;
+    top: -65px;
+    display: none;
+  
+
+}
+
+#error-email-1 {
+    position: relative;
+    right: -240px;
+
+}
+
+#weak-pass {
+    position: relative;
+    right: -240px;
+}
+
+
+@media(min-width: 1200px) {
+    .container {
+        min-height: 500px;
+         max-width: 1200px;
+         margin: 0 auto;
+         position: relative;
+    }
+    header {
+        position: absolute;
+        top: 220px;
+        width: 50%;
+        margin-left: -10px;
+
+    }
+      section {
+        position: absolute;
+        width: 55%;
+        right: -1px;
+        bottom: -150px;
+        max-height: 500px;
+        top: 170px;
+       
+
+        
+      }
+
+      #input {
+        margin-top: 20px;
+      }
+      main {
+        position: absolute;
+        width: 45%;
+        right: 80px;
+        margin-bottom: 10px;
+        padding: 20px 20px;
+        margin-top: 80px;
+      }
+      .try {
+        margin-left: 30px;
+        width: 90%;
+      }
+      input {
+        
+        font-size: 20px;
+      }
+
+      #first-name {
+        margin-top: 50px;
+      }
+
+      .title {
+        font-size: 35px;
+      }
+
+      .article {
+        width: 80%;
+        font-size: 20px;
+      }
+      .error {
+        font-size: 14px;
+        width: 100%;
+        position: relative;
+        right: -300px;
+        top: -8px;
+        color: hsl(0, 100%, 74%);
+        font-weight: 700;
+       display: none;
+    }
+    .icon {
+        position: relative;
+        right: -450px;
+        max-width: 20px;
+        width: 100%;
+        top: -70px;
+        display: none;
+    
+      
+    
+    }
+
+    #error-email-1 {
+        position: relative;
+        right: -320px;
+    
+    }
+   #weak-pass {
+    position: relative;
+    right: -340px;
+   }
+}
+
+@media(max-width: 475px) {
+  .claim {
+    min-width: 380px;
+    margin: 0 auto;
+    
+  }
+  main {
+    margin: 30px auto;
+    min-width: 380px;
+  }
+  .title {
+    width: 100%;
+    margin: 20px auto;
+  }
+}

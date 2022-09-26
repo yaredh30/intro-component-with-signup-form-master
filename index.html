@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h2 class="title">Learn to code by<br> watching others</h2>
+      <p class="article">
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable. </p>
+    </header>
+    <main>
+      <div class="hero">
+        <h4 class="try"><span class="colored-white"> Try it free 7 days</span> then $20/mo. thereafter</h4>
+    </main>
+    <section>
+      <div class="claim">
+        <div id="input">
+      <input type="text" id="first-name" placeholder="First Name">
+      <span class = "error"id="error-first">First Name cannot be empty</span>
+      <img id ="icon-first" class="icon" src="images/icon-error.svg" alt="error-icon">
+      <input type="text" id="last-name" placeholder="Last Name">
+      <span class = "error"id="error-last">Last Name cannot be empty</span>
+      <img id ="icon-last" class="icon" src="images/icon-error.svg" alt="error-icon">
+      <input type="text" id="email" placeholder="Email Address">
+      <span class="error" id="error-email-1">Email cannot be empty</span>
+      <span class = "error"id="error-email">Looks like this is invalid email</span>
+      <img id ="icon-email" class="icon"  src="images/icon-error.svg" alt="error-icon">
+      <input type="password" name="password" id="password" placeholder="Password">
+      <span class = "error"id="error-pass">Password cannot be empty</span>
+      <span class="error" id="weak-pass">Password is too weak</span>
+      <img id="icon-pass" class="icon" src="images/icon-error.svg" alt="error-icon">
+        </div>
+  
+    <button class="btn">
+      Claim your free trial 
+    </button>
+    <footer>
+      <p class="footer">By clicking the button, you are agreeing to our <span class="colored-red">Terms and Services</span></p>
+    </footer>
+  </section>
+  </div>
+  </div>
+  </div>
+  <script src="app.js"></script>
+  </body>
+</html>
